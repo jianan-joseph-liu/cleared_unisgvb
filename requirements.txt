@@ -1,0 +1,12 @@
+# Dependencies for the GW150914 AR-SGVB demo, verified with Python 3.12.
+# TF_USE_LEGACY_KERAS=1 is set by the entry script before TensorFlow is imported.
+numpy==2.4.4
+scipy==1.17.1
+matplotlib==3.10.9
+tensorflow==2.21.0
+tensorflow-probability==0.25.0
+tf-keras==2.21.0
+hyperopt==0.2.7
+colorama==0.4.6
+# Hyperopt imports pkg_resources, removed by newer setuptools releases.
+setuptools<81
